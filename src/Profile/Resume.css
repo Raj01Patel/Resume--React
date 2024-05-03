@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 60%;
+    margin: auto;
+}
+
+.profile {
+    display: flex;
+    margin: auto;
+}
+
+.profile .img {
+    width: 25%;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.para {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.profile .img img {
+    height: 200px;
+}
+
+.name {
+    width: 35%;
+    text-align: center;
+    align-content: center;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+
+.name h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.name h2 {
+    font-size: 25px;
+}
+
+
+.info {
+    width: 35%;
+    text-align: center;
+    align-content: center;
+    color: black;
+    padding: 15px 15px;
+    font-size: 17px;
+    border-bottom: 5px solid black;
+}
+
+.info p {
+    margin-bottom: 10px;
+}
+
+.info ul li {
+    list-style: none;
+}
+
+.work {
+    display: flex;
+    margin-top: 10px;
+}
+
+.work .img {
+    width: 25%;
+}
+
+.work img {
+    height: 200px;
+}
+
+.work-experience {
+    width: 70%;
+    align-content: center;
+    border-bottom: 5px solid black;
+}
+
+.work-experience ul {
+    list-style: none;
+    line-height: 20px;
+}
+
+.work-experience ul li {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.work .img {
+    text-align: center;
+}
+
+.skill {
+    display: flex;
+}
+
+.skill img {
+    height: 200px;
+}
+
+.skill .img {
+    width: 25%;
+}
+
+.d1 {
+    align-content: center;
+    line-height: 40px;
+    font-size: 20px;
+    width: 37%;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+.d2 {
+    align-content: center;
+    width: 33%;
+    border-bottom: 5px solid black
+}
+
+.d2 div {
+    margin: 10px;
+}
+
+.imgdiv {
+    width: 100%;
+    margin-top: 0px 10px;
+}
+
+.imgdiv img {
+    height: 150px;
+    margin: 10px;
+}
